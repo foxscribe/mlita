@@ -1,6 +1,6 @@
 build/
 .cache/
-
+*.out
 # -*- mode: gitignore; -*-
 *~
 \#*\#
