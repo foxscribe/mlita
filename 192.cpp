@@ -9,7 +9,8 @@
 #include <iostream>
 #include <string>
 
-bool is_friday_13(int year, int month) {
+bool is_friday_13(int year, int month) 
+{
     int m = month;
     int y = year;
 
@@ -37,7 +38,8 @@ bool is_friday_13(int year, int month) {
     return h == 6;
 }
 
-int main() {
+int main() 
+{
     int y1, y2;
     if (!(std::cin >> y1 >> y2)) 
     {

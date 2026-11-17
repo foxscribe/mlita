@@ -11,7 +11,8 @@
 #include <vector>
 #include <string>
 
-int main() {
+int main() 
+{
     int m, n;
     if (!(std::cin >> m >> n)) 
     {

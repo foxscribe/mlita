@@ -8,7 +8,8 @@
 #include <vector>
 #include <algorithm>
 
-int main() {
+int main() 
+{
     int n;
     if (!(std::cin >> n)) 
     {
